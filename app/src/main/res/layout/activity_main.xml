@@ -1,0 +1,56 @@
+<!-- res/layout/activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para o ID do Cliente -->
+    <EditText
+        android:id="@+id/editTextCustomerId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID do Cliente"
+        android:inputType="text" />
+
+    <!-- Campo para o Endereço de Origem -->
+    <EditText
+        android:id="@+id/editTextOrigin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço de Origem"
+        android:inputType="text" />
+
+    <!-- Campo para o Endereço de Destino -->
+    <EditText
+        android:id="@+id/editTextDestination"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Endereço de Destino"
+        android:inputType="text" />
+
+    <!-- Botão para Estimar a Viagem -->
+    <Button
+        android:id="@+id/buttonEstimateRide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Estimar Viagem" />
+
+    <TextView
+        android:id="@+id/tvResults"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:textSize="16sp"
+        android:text="resposta "
+        android:layout_marginTop="16dp"
+        android:textColor="@android:color/black" />
+
+
+    <!-- RecyclerView para exibir opções de motoristas após a requisição -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRideOptions"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout>

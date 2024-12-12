@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Mensagem de saída -->
+    <TextView
+        android:id="@+id/tvExitMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deseja realmente sair?"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/black" />
+
+    <!-- Container para botões -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <!-- Botão para cancelar -->
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Cancelar"
+            android:layout_marginEnd="8dp"
+            app:cornerRadius="8dp"
+            android:backgroundTint="@color/orange" />
+
+        <!-- Botão para confirmar saída -->
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sair"
+            android:backgroundTint="@color/orange"
+            app:cornerRadius="8dp"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

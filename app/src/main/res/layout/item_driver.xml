@@ -1,0 +1,112 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="4dp"
+    android:backgroundTint="@android:color/white">
+
+<RelativeLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:padding="8dp">
+
+<!-- Layout horizontal para imagem e textos -->
+<LinearLayout
+    android:id="@+id/layComponentes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:orientation="horizontal">
+
+    <!-- Ícone de carro (imagem à esquerda) -->
+    <ImageView
+        android:id="@+id/ivCarIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="16dp"
+        android:contentDescription="Ícone do Carro"
+        android:src="@drawable/carro_vermelho" />
+
+    <!-- Bloco com as informações do motorista -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- Nome do motorista -->
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome do motorista"
+            android:textStyle="bold" />
+
+        <!-- Descrição do motorista -->
+        <TextView
+            android:id="@+id/tvDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição do motorista" />
+
+        <!-- Veículo -->
+        <TextView
+            android:id="@+id/tvVehicle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Veículo" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:id="@+id/tvRating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Avaliação" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                app:srcCompat="@drawable/star" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="2dp"
+            android:textSize="18sp"
+            android:text="Valor da viagem"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Valor da viagem, no canto superior direito -->
+
+</LinearLayout>
+
+<!-- Botão para escolher -->
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layComponentes"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="8dp"
+        android:text="Escolher" />
+</RelativeLayout>
+
+    </androidx.cardview.widget.CardView>

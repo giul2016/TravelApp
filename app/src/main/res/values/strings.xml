@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyChofer</string>
+
+    <string name="maps_api_key">sua chave de api aqui</string>
+
+
+</resources>
