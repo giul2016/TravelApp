@@ -109,7 +109,8 @@ Sempre que houver um erro ou uma requisição, o usuário recebe um **feedback v
 - **Kotlin** para o desenvolvimento Android.
 - **Google Maps API** para o mapa e rotas.
 - **Retrofit** para comunicação com a API.
-- **Firebase** para armazenamento de dados e autenticação.
+- **MVVM (Model-View-ViewModel)** para organizar o código de forma eficiente e escalável.
+**Hilt** para a injeção de dependências, facilitando o gerenciamento de componentes e promovendo testes mais fáceis e independentes.
 
 ---
 
@@ -149,13 +150,13 @@ Sempre que houver um erro ou uma requisição, o usuário recebe um **feedback v
 > Imagem ilustrativa das telas do aplicativo (adicione imagens reais do app)
 
 1. **Tela de Solicitação de Viagem**
-   ![Tela de Solicitação](link_da_imagem)
+   ![Tela de Solicitação](docs/images/viagem.png)
    
 2. **Tela de Opções de Viagem**
-   ![Tela de Opções](link_da_imagem)
+   ![Tela de Opções](docs/images/motorista.png)
 
 3. **Tela de Histórico de Viagens**
-   ![Tela de Histórico](link_da_imagem)
+   ![Tela de Histórico](docs/images/histórico.png)
 
 ---
 
