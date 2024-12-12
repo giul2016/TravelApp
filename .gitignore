@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Garantir que a pasta docs não seja ignorada
+!docs/
