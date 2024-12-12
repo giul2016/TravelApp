@@ -150,13 +150,13 @@ Sempre que houver um erro ou uma requisição, o usuário recebe um **feedback v
 > Imagem ilustrativa das telas do aplicativo (adicione imagens reais do app)
 
 1. **Tela de Solicitação de Viagem**
-   ![Tela de Solicitação](docs/images/viagem.png)
+   ![Tela de Solicitação](TravelApp/docs/images/viagem.png)
    
 2. **Tela de Opções de Viagem**
-   ![Tela de Opções](docs/images/motorista.png)
+   ![Tela de Opções](TravelApp/docs/images/motorista.png)
 
 3. **Tela de Histórico de Viagens**
-   ![Tela de Histórico](docs/images/histórico.png)
+   ![Tela de Histórico](TravelApp/docs/images/histórico.png)
 
 ---
 
