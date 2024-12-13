@@ -211,7 +211,7 @@ class HistoryActivity : AppCompatActivity() {
                     populateRideRecyclerView(result.data)
                 } else {
                     // Caso o estado não seja um sucesso, exibe a mensagem de erro
-                    exibirMensagem("Erro ao carregar viagens.")
+                    //exibirMensagem("Erro ao carregar viagens.")
                 }
             }
             return
