@@ -1,6 +1,15 @@
 
 # 🚗 **Aplicativo de Solicitação de Viagens - Carro Particular** 🚗
 
+## ❗ **Observação Importante sobre Testes**
+
+**Não foi possível testar todos os cenários devido a inconsistências entre a documentação fornecida e o comportamento da API**.
+
+A API não respondeu conforme esperado para alguns casos, o que impactou a execução de testes completos. 
+Estas discrepância entre a documentação e a API pode ter afetado a execução de alguns testes de validação de funcionalidades. Caso a documentação e a API sejam corrigidas, todos os cenários poderão ser testados corretamente.
+
+---
+
 ## 📝 **Descrição do Aplicativo**
 
 Este aplicativo permite que o usuário solicite viagens de carro particular de um ponto A até um ponto B. Através de uma interface amigável, o usuário pode escolher entre diversas opções de motoristas e valores, confirmar a viagem e visualizar o histórico de viagens realizadas.
@@ -149,14 +158,6 @@ Sempre que houver um erro ou uma requisição, o usuário recebe um **feedback v
 
 > Imagem ilustrativa das telas do aplicativo (adicione imagens reais do app)
 
-## ❗ **Observação Importante sobre Testes**
-
-**Não foi possível testar todos os cenários devido a inconsistências entre a documentação fornecida e o comportamento da API**.
-
-A API não respondeu conforme esperado para alguns casos, o que impactou a execução de testes completos. 
-Estas discrepância entre a documentação e a API pode ter afetado a execução de alguns testes de validação de funcionalidades. Caso a documentação e a API sejam corrigidas, todos os cenários poderão ser testados corretamente.
-
----
 
 1. **Tela de Solicitação de Viagem**
    ![Tela de Solicitação](docs/images/viagem.png)
