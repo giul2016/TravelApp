@@ -151,8 +151,9 @@ Sempre que houver um erro ou uma requisição, o usuário recebe um **feedback v
 
 ## ❗ **Observação Importante sobre Testes**
 
-**Não foi possível testar todos os cenários devido a inconsistências entre a documentação fornecida e o comportamento da API**. A API não respondeu conforme esperado para alguns casos, o que impactou a execução de testes completos. 
+**Não foi possível testar todos os cenários devido a inconsistências entre a documentação fornecida e o comportamento da API**.
 
+A API não respondeu conforme esperado para alguns casos, o que impactou a execução de testes completos. 
 Estas discrepância entre a documentação e a API pode ter afetado a execução de alguns testes de validação de funcionalidades. Caso a documentação e a API sejam corrigidas, todos os cenários poderão ser testados corretamente.
 
 ---
